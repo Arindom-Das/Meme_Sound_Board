@@ -1,0 +1,92 @@
+
+html {
+  
+    font-size: 8px;
+    height: 100%;
+    width: 100%;
+    background: url(https://i.pinimg.com/564x/fd/31/05/fd3105ef65f35551d8bccad401f61720.jpg);
+    background-size: cover ;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+    
+    
+  }
+
+  body{
+    margin: 0rem;
+    padding: 1em;
+    font-family: sans-serif;  
+    backdrop-filter: blur(3rem);
+    height: 100%;
+  }
+  @media (min-width:320px){
+  .keys {
+    display:flex;
+    height: 20vh;
+    align-items:first baseline;
+    justify-content: center;
+  }
+}
+    @media (min-width:1000px){.keys {
+      display:flex;
+      height: 20vh;
+      align-items:first baseline;
+      justify-content: center;
+    }}
+
+  .key {
+    border: .4rem solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: 1.5rem;
+    padding: 5mm 6mm 2mm 5mm;
+    transition: all .07s ease;
+    
+    width: 2cm;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem rgb(34, 22, 22);
+    box-shadow: rgba(5, 5, 5, 0.726) 12px 12px 5px; 
+    border-radius: 3ch;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+    
+  }
+  
+  .sound {
+    font-family: fantasy;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0rem;
+    color: #ffc600;
+    
+  }
+.peach{
+  padding-block: 3%;
+  border-radius: 3ch;
+  box-shadow:rgba(199, 138, 138, 0.918) 0px 4px 20px; 
+}
+@media (mini-width:1024px){#ninja{
+  padding: 0%;
+  display: fixed;
+  text-align: center;
+  color: rgb(97, 3, 186);
+  filter: drop-shadow(10px 1px 5px #21eb06af);
+  font-size: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}}
+@media (min-width:425px){#ninja{
+  padding: 2%;
+  display: fixed;
+  text-align: center;
+  color: rgb(97, 3, 186);
+  filter: drop-shadow(10px 1px 5px #21eb06af);
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }}
