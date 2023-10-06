@@ -1,4 +1,4 @@
-# Audio Player
+# MEME SOUND BOARD
 
 This is a simple JavaScript code snippet that allows you to play audio files when specific keys are pressed. It also adds a visual effect to the corresponding key element.
 
